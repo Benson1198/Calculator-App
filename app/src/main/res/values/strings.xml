@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">My Calculator</string>
-    <string name="calc_text">12345</string>
+    <string name="calc_text"></string>
 </resources>
