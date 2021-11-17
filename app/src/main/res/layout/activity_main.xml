@@ -66,6 +66,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="/"
+            android:onClick="onOperator"
             android:textSize="31sp"
             android:textColor="#424647"
             android:backgroundTint="@color/operations">
@@ -122,6 +123,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="*"
+            android:onClick="onOperator"
             android:textSize="31sp"
             android:textColor="#424647"
             android:backgroundTint="@color/operations">
@@ -178,6 +180,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="-"
+            android:onClick="onOperator"
             android:textSize="37sp"
             android:textColor="#424647"
             android:backgroundTint="@color/operations">
@@ -235,6 +238,7 @@
             android:layout_margin="2dp"
             android:layout_weight="1"
             android:text="+"
+            android:onClick="onOperator"
             android:textSize="31sp"
             android:textColor="#424647"
             android:backgroundTint="@color/operations">
@@ -254,6 +258,7 @@
             android:layout_margin="2dp"
             android:layout_weight="2"
             android:text="="
+            android:onClick="onEqual"
             android:textSize="31sp"
             android:backgroundTint="@color/equal">
         </Button>
